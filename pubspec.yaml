@@ -1,0 +1,28 @@
+name: skinwise
+description: SkinWise - Skin-Twin forum, ingredient tags, and routine cloning (UI-only, no backend yet)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_core: ^4.15.0
+  firebase_auth: ^6.7.0
+  cloud_firestore: ^6.10.0
+  google_sign_in: 6.2.2
+  # No Firebase yet -- this build runs entirely on an in-memory local store
+  # (see lib/services/local_store.dart) so you can test the UI and flows
+  # without any backend setup. Add firebase_core / firebase_auth /
+  # cloud_firestore back in once you're ready to persist data for real.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "971554897929",
+    "project_id": "skinwais",
+    "storage_bucket": "skinwais.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971554897929:android:a2868aebb387c336a0f8d8",
+        "android_client_info": {
+          "package_name": "com.example.skinwais"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971554897929-cb3m792qf3jb0v51pakju4s27ac0al96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk6qS99dKEY4BE3_fHf_ky4aqeaBddPgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971554897929-cb3m792qf3jb0v51pakju4s27ac0al96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
